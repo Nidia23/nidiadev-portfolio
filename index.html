@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nidia Izquierdo | Desarrolladora Web</title>
+  <meta name="description" content="Portfolio de Nidia Izquierdo, desarrolladora web.">
+  <meta name="theme-color" content="#000000">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="nav__brand" href="#inicio" aria-label="Nidia Izquierdo, ir al inicio">
+        <span class="nav__logo" aria-hidden="true">&lt;/&gt;</span>
+        <span>Nidia Izquierdo</span>
+      </a>
+
+      <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+        <span class="visually-hidden">Abrir menú</span>
+        <span class="nav__toggle-bar" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li><a class="nav__link" href="#sobre-mi">Sobre mí</a></li>
+        <li><a class="nav__link" href="#proyectos">Proyectos</a></li>
+        <li><a class="nav__link" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <p class="hero__eyebrow">Desarrolladora Web</p>
+        <h1 class="hero__title" id="hero-title">Nidia Izquierdo</h1>
+        <p class="hero__lead">Código limpio y experiencia de usuario.</p>
+
+        <ul class="chips" aria-label="Tecnologías">
+          <li>HTML5</li>
+          <li>CSS3 (Sass)</li>
+          <li>JavaScript</li>
+          <li>React Js</li>
+          <li>Node Js</li>
+          <li>SQL y Express</li>
+          <li>Claude Code</li>
+          <li>Git</li>
+        </ul>
+
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#proyectos">Ver proyectos</a>
+          <a class="btn btn--outline" href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi" aria-labelledby="sobre-mi-title">
+      <div class="container">
+        <h2 class="section__title" id="sobre-mi-title">Sobre mí</h2>
+        <div class="panel">
+          <p>
+            Soy <strong>desarrolladora web</strong> y apasionada del <strong>código limpio</strong>
+            y la <strong>experiencia de usuario (UX)</strong>. Mi objetivo es
+            <strong>conectar el valor humano con la tecnología</strong>: creo que lo que construimos
+            solo tiene sentido si <strong>ayuda de verdad a las personas</strong>, y eso es lo que
+            busco en cada proyecto.
+          </p>
+          <p>
+            Tras una sólida trayectoria <strong>liderando equipos</strong> en sectores dinámicos, he
+            evolucionado hacia el desarrollo web combinando mi <strong>capacidad analítica</strong> con
+            un sólido stack tecnológico (<strong>MERN</strong>) y formación en
+            <strong>diseño gráfico asistido por IA</strong>. Esa experiencia me ha enseñado que
+            <strong>escuchar opiniones distintas</strong> enriquece a un equipo, y que lo más
+            satisfactorio es <strong>remar todos hacia el mismo lugar</strong>.
+          </p>
+          <p>
+            Aporto una <strong>madurez profesional</strong> y una
+            <strong>capacidad de resolución de problemas</strong> poco comunes en perfiles junior, y
+            busco <strong>aportar valor inmediato</strong> en un equipo técnico creativo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos" aria-labelledby="proyectos-title">
+      <div class="container">
+        <h2 class="section__title" id="proyectos-title">Proyectos</h2>
+        <div class="panel">
+          <!-- Añade aquí tus proyectos -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto" aria-labelledby="contacto-title">
+      <div class="container">
+        <h2 class="section__title" id="contacto-title">Contacto</h2>
+        <ul class="contact">
+          <li>
+            <a class="contact__card" href="mailto:nidiadev23@gmail.com">
+              <span class="contact__label">Email</span>
+              <span class="contact__value">nidiadev23@gmail.com</span>
+            </a>
+          </li>
+          <li>
+            <a class="contact__card" href="https://www.linkedin.com/in/nidia-izquierdo/" target="_blank" rel="noopener noreferrer">
+              <span class="contact__label">LinkedIn</span>
+              <span class="contact__value">nidia-izquierdo</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Nidia Izquierdo · Desarrolladora Web</p>
+  </footer>
+</body>
+</html>
